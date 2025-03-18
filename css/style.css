@@ -7,6 +7,7 @@
 
 body {
   font-family: Montserrat, Helvetica, sans-serif;
+  background-color: rgb(246 245 243);
 }
 
 img {
@@ -63,7 +64,24 @@ li {
 
 /* PREVIEW */
 
+#preview {
+  height: 100%;
+}
+
 .container {
+  margin: 50px 200px;
+}
+
+.card {
+  display: flex;
   width: 100%;
-  background-color: grey;
+}
+
+.title-item {
+  margin-left: 10px;
+}
+
+.card-item {
+  background-color: white;
+  padding: 20px;
 }
