@@ -1,0 +1,62 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+[class*="col"] {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* HEADER */
+
+.page-header {
+  background-color: rgb(255 255 255);
+  width: 100%;
+}
+
+.title-header {
+  font-family: "Nerko One", cursive;
+  color: orange;
+}
